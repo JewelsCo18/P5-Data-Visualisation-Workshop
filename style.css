@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.button_style {
+	background-color: white;
+	height: 35px;
+	width: 200px;
+	font-family: "Times New Roman", Arial, sans-serif;
+	color: black;
+	text-align: center;
+	line-height: 2.25;
+	vertical-align: middle;
+	border-radius: 12px;
+}
+
+.button_style:hover {
+	background-color: #4400ff;
+	cursor: pointer;
+}
