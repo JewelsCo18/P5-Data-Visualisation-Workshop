@@ -1,0 +1,56 @@
+{
+	"snacks": [
+		{
+			"type": "CHIPS",
+			"percentage": "30",
+			"brands": [
+				"Lays", 
+				"Pringles", 
+				"Ruffles", 
+				"Herr"
+			]
+		}, 
+		{
+			"type": "ICE CREAM", 
+			"percentage": "20", 
+			"brands": [
+				"Breyers", 
+				"Magnum", 
+				"Ben and Jerrys", 
+				"Haagen-Dazs"
+			]
+		}, 
+		{
+			"type": "COOKIES", 
+			"percentage": "15", 
+			"brands": [
+				"Oreos", 
+				"Newtons", 
+				"Pepperridge Farm", 
+				"Nilla Wafers", 
+				"Keebler"
+			]
+		}, 
+		{
+			"type": "CANDY", 
+			"percentage": "10", 
+			"brands": [
+				"Starburst", 
+				"Smarties", 
+				"Dum Dum Lolipops", 
+				"Skittles"
+			]
+		}, 
+		{
+			"type": "CHOCOLATE", 
+			"percentage": "25", 
+			"brands": [
+				"Hershey Chocolate",
+				"Snickers", 
+				"M&Ms", 
+				"Milkyways"
+			]
+		}
+	]
+}
+
