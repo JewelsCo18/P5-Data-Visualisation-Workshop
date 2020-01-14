@@ -3,16 +3,18 @@ var button;
 //var snapshots = [];
 var x = 0; 
 var y = 0; 
-var canvas_x = 650; 
-var canvas_y = 240; 
+var canvas_x;
+var canvas_y;
 
 function setup() { 
+  canvas_x = windowWidth; 
+  canvas_y = windowHeight/2; 
   createCanvas(canvas_x, canvas_y); 
   background(51); 
   video = createCapture(VIDEO); 
   video.size(320,240); 
-  video.position(175,240); 
-  button = createButton('snap'); 
+  video.position(canvas_x/2-150,canvas_y); 
+  button = createButton('Start Snapping!'); 
   button.mousePressed(takesnap); 
 }
 
